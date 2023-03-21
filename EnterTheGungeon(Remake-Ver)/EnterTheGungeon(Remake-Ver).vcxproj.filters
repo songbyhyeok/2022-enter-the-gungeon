@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="System\Base">
+      <UniqueIdentifier>{ab3f6993-f226-44b1-ab55-35e9cc3a0479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Utility">
+      <UniqueIdentifier>{ff8a110b-4682-49a7-8675-4905e71a2308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneManager">
+      <UniqueIdentifier>{9d2fbb9a-9b92-4cb7-8009-e1c635a9b282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{85c22cda-2d55-423d-941f-6b465353d8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{9a84f61d-12c9-4ef3-94f5-3ab072d50ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneManager\Scene">
+      <UniqueIdentifier>{c781b3ff-800d-4eac-a572-bd4f761f1654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Main">
+      <UniqueIdentifier>{cbc20062-b980-472c-b0e6-9c08e49e6eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Button">
+      <UniqueIdentifier>{d6bceb94-af3b-4bdc-b80e-cd6a41dad58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Button\ButtonState">
+      <UniqueIdentifier>{2c0b87ed-df85-4fdc-b064-4763d09b07a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageManager">
+      <UniqueIdentifier>{31f26993-cfbe-46fa-a019-1486303c36d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageManager\Image">
+      <UniqueIdentifier>{3ef776d2-028a-4d1b-9783-e0d6f5df69c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Debugging">
+      <UniqueIdentifier>{33bc7f14-4428-4001-8a49-9d0ae107a09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\TimeHandler">
+      <UniqueIdentifier>{cb2f485c-7c70-4cb4-aceb-9a44ec1a395f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\TimeHandler\Timer">
+      <UniqueIdentifier>{7a9e68b2-c425-4641-ae6a-4d3000da08e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextHandler">
+      <UniqueIdentifier>{c1618074-dc54-4e7f-a074-d18253b32a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\SoundController">
+      <UniqueIdentifier>{69a2b5cb-2242-447e-aa01-db8da7e3d97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MouseHandler">
+      <UniqueIdentifier>{f64e4084-df7d-45f4-a1f2-8ca926d78476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyController">
+      <UniqueIdentifier>{879b3464-b33c-465a-a22f-6164be1bc0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Option">
+      <UniqueIdentifier>{e65d7a49-e4ef-4126-8294-e03274373194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\ScreenManager">
+      <UniqueIdentifier>{1c1c3991-e5bc-472d-95e6-8b5ab2232455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraController">
+      <UniqueIdentifier>{347dae57-30e9-440f-8106-c8ed724b58b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataHandler">
+      <UniqueIdentifier>{41062458-a9a2-493d-9ec4-8b2a318bf862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoController">
+      <UniqueIdentifier>{b845025d-f604-4799-9fff-43ad02196e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoController\Video">
+      <UniqueIdentifier>{252d70b8-a37a-4d61-a207-d94e802c860d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool">
+      <UniqueIdentifier>{6bb1a268-8d5e-4f46-848c-fae510def8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrigonometricController">
+      <UniqueIdentifier>{3e2e9ca1-9b7e-4cb2-8751-8d6cc289cb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FunctionsStorage">
+      <UniqueIdentifier>{b7b15f04-00dd-41f9-b80c-5844b0d39447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{5a52006b-9a2d-4391-9623-62215ef00328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionHandler">
+      <UniqueIdentifier>{53ed1393-d593-47f9-ba66-285c6b9d41e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BulletManager">
+      <UniqueIdentifier>{1647fe5e-4a84-4dca-b702-ce398b9ed69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BulletManager\Bullet">
+      <UniqueIdentifier>{8322827b-9774-4d8f-8feb-d1c8bad09f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectPoolingManager">
+      <UniqueIdentifier>{01ea47a3-714b-4319-972e-43d96adc40f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weapon">
+      <UniqueIdentifier>{373b8dcd-b141-4911-b842-e25e08ce79dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseInterface">
+      <UniqueIdentifier>{d614c0e1-9579-4b2b-bce8-b60dced4bd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Category">
+      <UniqueIdentifier>{1ff18a33-9f80-48bb-b0d9-12a984815bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Inventory">
+      <UniqueIdentifier>{29b372ec-b13a-4c8d-899a-b840d27d61e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\MapTool">
+      <UniqueIdentifier>{a885e7f5-8cc1-4b79-a38a-1617888789e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapTool\Scroll">
+      <UniqueIdentifier>{193631dd-4a71-4115-b65f-fdc6f45b2e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton\EffectManager">
+      <UniqueIdentifier>{f24d61e8-1038-4822-8f40-6f0f59cdcbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbstractFactory">
+      <UniqueIdentifier>{a1d60648-3955-4a5b-b79f-8cf0cd5dacd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbstractFactory\Product">
+      <UniqueIdentifier>{15cf45e5-af77-49da-9a89-2617b03f44ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{9c318730-1dba-4b0c-a681-1fe9de2ee1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\PlayerController">
+      <UniqueIdentifier>{80a59019-3e45-4dd4-b805-77347ae8660c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserInterface">
+      <UniqueIdentifier>{656211ce-4394-4604-ad5e-a4466442fc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AStar">
+      <UniqueIdentifier>{c046d22c-d574-4cd2-bb87-6ed113671a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{ad601136-98d5-4b56-819c-2db188934330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonsterController">
+      <UniqueIdentifier>{95782734-3948-45ec-8afd-fd167f28ed8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemys">
+      <UniqueIdentifier>{6f078542-f5cf-49db-8a59-bc30eb44ccd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnterTheGungeon(Remake-Ver).h">
+      <Filter>System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>System\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>ImageManager\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>CameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>SceneManager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundController.h">
+      <Filter>Singleton\SoundController</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoController.h">
+      <Filter>VideoController</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeHandler.h">
+      <Filter>Singleton\TimeHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Video.h">
+      <Filter>VideoController\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonState.h">
+      <Filter>Button\ButtonState</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHandler.h">
+      <Filter>TextHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyController.h">
+      <Filter>KeyController</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseHandler.h">
+      <Filter>MouseHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Singleton\TimeHandler\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionsStorage.h">
+      <Filter>FunctionsStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging.h">
+      <Filter>System\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Singleton\ScreenManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler.h">
+      <Filter>DataHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="TrigonometricController.h">
+      <Filter>TrigonometricController</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Player\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>CollisionHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>BulletManager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPoolingManager.h">
+      <Filter>ObjectPoolingManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseInterface.h">
+      <Filter>BaseInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>MapTool\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>MapTool\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Scroll.h">
+      <Filter>MapTool\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Singleton\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAbstractProduct.h">
+      <Filter>AbstractFactory\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAbstractFactory.h">
+      <Filter>AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>MonsterController</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterController.h">
+      <Filter>MonsterController</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.h">
+      <Filter>Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBook.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGigi.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyKey.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShotgun.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShotgun2.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Category.h">
+      <Filter>MapTool\Category</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EnterTheGungeon(Remake-Ver).rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="EnterTheGungeon(Remake-Ver).ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EnterTheGungeon(Remake-Ver).cpp">
+      <Filter>System\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>System\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>ImageManager\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>CameraController</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Singleton\TimeHandler\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>SceneManager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundController.cpp">
+      <Filter>Singleton\SoundController</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoController.cpp">
+      <Filter>VideoController</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeHandler.cpp">
+      <Filter>Singleton\TimeHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Video.cpp">
+      <Filter>VideoController\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonState.cpp">
+      <Filter>Button\ButtonState</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="TextHandler.cpp">
+      <Filter>TextHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyController.cpp">
+      <Filter>KeyController</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseHandler.cpp">
+      <Filter>MouseHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionsStorage.cpp">
+      <Filter>FunctionsStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging.cpp">
+      <Filter>System\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Singleton\ScreenManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler.cpp">
+      <Filter>DataHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="TrigonometricController.cpp">
+      <Filter>TrigonometricController</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Player\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandler.cpp">
+      <Filter>CollisionHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>BulletManager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>BulletManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Category.cpp">
+      <Filter>MapTool\Category</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>MapTool\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>MapTool\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Scroll.cpp">
+      <Filter>MapTool\Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Singleton\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAbstractFactory.cpp">
+      <Filter>AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>MonsterController</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterController.cpp">
+      <Filter>MonsterController</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBook.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGigi.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyKey.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShotgun.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShotgun2.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
