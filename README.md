@@ -5,6 +5,8 @@
 
 2.5D 로그라이크 탄막 게임이며 개인 프로젝트입니다.
 
+https://www.youtube.com/watch?v=8sacJ-9pu9s&feature=youtu.be
+
 &nbsp;
 
 ### 주요 기능
